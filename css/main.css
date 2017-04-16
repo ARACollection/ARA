@@ -68,7 +68,7 @@ width: 500px;
     {
       width: 200px;
       height:auto;
-      top: 40%;
+      top: 30%;
       left: 50%;
       position: fixed;
       margin-left: -100px;
@@ -159,6 +159,11 @@ body .splashLogo
   bottom:0;
   width:100%;
   cursor:pointer;
+}
+
+#splashScreen:focus
+{
+  outline: none;
 }
 
 #splashScreen.closed

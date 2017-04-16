@@ -34,7 +34,8 @@ function cookieCheck()
   var user = getCookie("hasVisited");
   if (user != "")
   {
-    alert("OH");
+    document.getElementById("splashScreen").classList.add('closed');
+    document.getElementsByTagName("BODY")[0].classList.add('open');
   }
   else
   {
